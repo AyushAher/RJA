@@ -1,0 +1,21 @@
+.introduction {
+  background-color: var(--primaryColor);
+  color: #fff;
+  width: 35vw;
+  padding: 20px;
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+.introduction > p {
+  font-size: 22px;
+  font-family: "Cairo", sans-serif;
+  word-spacing: 5px;
+  letter-spacing: 3px;
+}
+
+.introduction > h4 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}

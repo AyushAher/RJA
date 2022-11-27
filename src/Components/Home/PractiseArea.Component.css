@@ -1,0 +1,22 @@
+.title {
+  color: var(--primaryColor);
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Cairo", sans-serif;
+}
+
+.practiseIcon {
+  height: 100px;
+  width: 100px;
+}
+
+.practiseText {
+  color: var(--primaryColor);
+  margin-top: 5%;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+}
+
+.row {
+  justify-content: center;
+}

@@ -1,0 +1,45 @@
+.contact {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.mainBody {
+  padding: 3.5rem;
+}
+
+.mainBody > h6 {
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.underline {
+  background-color: #fff;
+  width: 10rem;
+  height: 2.5px;
+  right: 41%;
+  position: absolute;
+}
+
+.contact-form {
+  width: 50rem;
+  padding: 25px;
+  background-color: ghostwhite;
+}
+.contact-form > * {
+  color: gray;
+  width: 80%;
+  margin: 0 8%;
+}
+
+.input {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0;
+  background-color: inherit;
+}
+
+.submit {
+  margin-top: 30px;
+  width: 150px !important;
+}

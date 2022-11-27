@@ -1,0 +1,28 @@
+.hero-Img {
+  height: 50rem;
+  width: 100%;
+}
+
+.hero {
+  top: 5rem;
+}
+
+.hero-Text {
+  position: absolute;
+  top: 30%;
+  padding: 15px;
+  background: #f0fff091;
+  text-align: center;
+  left: 10%;
+  font-size: 25px;
+}
+
+.hero-Text > p {
+  margin: 0;
+}
+
+.hero-Link {
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+}

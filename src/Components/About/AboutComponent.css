@@ -1,0 +1,79 @@
+.about {
+  background-color: var(--primaryColor);
+  color: #fff;
+}
+
+.headingText {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+}
+
+.box {
+  height: 60px;
+  width: 65px;
+  border: 5px solid #fff;
+}
+
+.line {
+  height: 3rem;
+  width: 0.3rem;
+  margin: 0px 25px;
+  background-color: #fff;
+  transform: rotate(50deg);
+}
+
+.about-heading {
+  font-size: 3rem;
+}
+
+.about-heading > span {
+  font-weight: bold;
+}
+
+.caption {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
+.catchPhrase {
+  text-align: center;
+}
+
+.teamPic {
+  width: 50rem;
+}
+
+.content {
+  font-size: 1.5rem;
+  text-align: justify;
+  line-height: 3rem;
+  margin-top: 20px;
+}
+
+.mainBody {
+  padding: 0 5rem;
+}
+
+.mainBody > h6 {
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+}
+
+.underline {
+  background-color: #fff;
+  width: 10rem;
+  height: 2.5px;
+  right: 41%;
+  position: absolute;
+}
+
+.btn-req-quote {
+  color: #fff;
+  background: transparent;
+  border: 0.1px solid;
+  padding: 10px 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 15px;
+}

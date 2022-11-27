@@ -1,0 +1,9 @@
+footer {
+  background: var(--primaryColor);
+  color: #fff;
+  padding: 20px 50px;
+}
+
+footer > * {
+  color: #fff !important  ;
+}

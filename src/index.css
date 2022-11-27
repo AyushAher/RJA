@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Cairo&display=swap");
+
+:root {
+  --primaryColor: rgb(0, 48, 91);
+}
+
+body {
+  margin: 0;
+  font-family: "Barlow Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 18px;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: "Barlow Condensed", source-code-pro, Menlo, Monaco, Consolas,
+    "Courier New", monospace;
+}

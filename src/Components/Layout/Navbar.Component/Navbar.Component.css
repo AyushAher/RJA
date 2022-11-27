@@ -1,0 +1,11 @@
+.nav-Link {
+  text-decoration: none !important;
+}
+
+.brand-Text {
+  font-family: "Cairo", sans-serif;
+}
+
+.navbar {
+  width: 100vw;
+}
