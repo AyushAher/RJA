@@ -95,10 +95,3 @@ class ContactComponent extends Component {
 }
 
 export default ContactComponent;
-echo "# RJA" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/AyushAher/RJA.git
-git push -u origin main
