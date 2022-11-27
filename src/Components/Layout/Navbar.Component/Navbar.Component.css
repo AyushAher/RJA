@@ -1,5 +1,10 @@
 .nav-Link {
   text-decoration: none !important;
+  color: gray;
+}
+.nav-Link:hover {
+  text-decoration: none !important;
+  color: rgb(108, 104, 104);
 }
 
 .brand-Text {

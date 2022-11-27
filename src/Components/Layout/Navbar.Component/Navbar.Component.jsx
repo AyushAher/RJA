@@ -17,15 +17,21 @@ const Navbarcomponent = () => {
           </Link>
 
           <Nav className="justify-content-end me-4">
-            <Link to="/" className="nav-Link">
-              <Nav.Link>Home</Nav.Link>
-            </Link>
-            <Link to="/about" className="nav-Link">
-              <Nav.Link>About</Nav.Link>
-            </Link>
-            <Link to="/contact" className="nav-Link">
-              <Nav.Link>Contact</Nav.Link>
-            </Link>
+            <Nav.Link>
+              <Link to="/" className="nav-Link">
+                Home
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/about" className="nav-Link">
+                About
+              </Link>
+            </Nav.Link>
+            <Nav.Link>
+              <Link to="/contact" className="nav-Link">
+                Contact
+              </Link>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
