@@ -17,20 +17,14 @@ const Navbarcomponent = () => {
           </Link>
 
           <Nav className="justify-content-end me-4">
-            <Nav.Link>
-              <Link to="/" className="nav-Link">
-                Home
-              </Link>
+            <Nav.Link as={Link} to="/">
+              Home
             </Nav.Link>
-            <Nav.Link>
-              <Link to="/about" className="nav-Link">
-                About
-              </Link>
+            <Nav.Link as={Link} to="/about">
+              About
             </Nav.Link>
-            <Nav.Link>
-              <Link to="/contact" className="nav-Link">
-                Contact
-              </Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact
             </Nav.Link>
           </Nav>
         </Container>

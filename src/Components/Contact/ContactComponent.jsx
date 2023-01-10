@@ -2,6 +2,7 @@ import "./ContactComponent.css";
 import React from "react";
 import { Container, Button, Form } from "react-bootstrap";
 import { Component } from "react";
+import { ContactUsEmail } from "../../Services/SendEmail";
 
 class ContactComponent extends Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class ContactComponent extends Component {
 
   sendEmail = (e) => {
     e.preventDefault();
+    ContactUsEmail(this.state);
   };
 
   render = () => {
@@ -82,7 +84,7 @@ class ContactComponent extends Component {
                     className="input"
                   />
                 </Form.Group>
-                <Button variant="secondary" className="submit" type="submit">
+                <Button variant="outline-secondary" className="submit" type="submit">
                   Submit
                 </Button>
               </Form>

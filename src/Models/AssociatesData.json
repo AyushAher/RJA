@@ -1,25 +1,30 @@
 [
   {
+    "id":1,
     "qualification": "B.A. L.LM (Symbiosis Deemed University, Pune)",
     "img": "advRJA",
     "text": "Adv. Rajendra G. Jaigude"
   },
   {
+    "id":2,
     "qualification": "B.A. LLB (Symbiosis Deemed University, Pune)",
     "img": "advRamdasBorate",
     "text": "Adv. Ramdas Borate"
   },
   {
+    "id":3,
     "qualification": "B.S.L LLB (Dr. Babasaheb Ambedkar Marathwada University)",
     "img": "advSheetalNarode",
     "text": "Adv. Sheetal Narode"
   },
   {
+    "id":4,
     "qualification": "B.A.LLB (Pune University, Pune )",
     "img": "advAvinashGadekar",
     "text": "Adv. Avinash P. Gadekar"
   },
   {
+    "id":5,
     "qualification": "B.A. LLB (Pune University, Pune )",
     "img": "advPramodNarode",
     "text": "Adv. Pramod Narode"

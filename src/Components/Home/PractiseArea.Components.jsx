@@ -4,11 +4,11 @@ import "./PractiseArea.Component.css";
 
 export const PractiseAreaComponents = () => {
   const obj = [
-    { img: "RealEstateIcon", text: "Real Estate" },
-    { img: "revenueMattersIcom", text: "Revenue Matters" },
-    { img: "cooperativeSocietyIcon", text: "Co-operative Society" },
-    { img: "propertyLawIcon", text: "Property Law" },
-    { img: "civilLitigation", text: "Civil Litigation" },
+    { id: 1, img: "RealEstateIcon", text: "Real Estate" },
+    { id: 2, img: "revenueMattersIcom", text: "Revenue Matters" },
+    { id: 3, img: "cooperativeSocietyIcon", text: "Co-operative Society" },
+    { id: 4, img: "propertyLawIcon", text: "Property Law" },
+    { id: 5, img: "civilLitigation", text: "Civil Litigation" },
   ];
 
   return (
@@ -19,7 +19,7 @@ export const PractiseAreaComponents = () => {
           <div className="">
             <div className="row my-2">
               {obj.map((data) => (
-                <div className="col-md-4 my-4" style={{ textAlign: "center" }}>
+                <div key={data.id} className="col-md-4 my-4" style={{ textAlign: "center" }}>
                   <img
                     className="practiseIcon"
                     src={process.env.PUBLIC_URL + `Images/${data.img}.png`}

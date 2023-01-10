@@ -8,7 +8,11 @@ export const AssociatesComponent = () => {
       <div className="container-fluid">
         <div className="row my-2">
           {lstAssociates.map((data) => (
-            <div className="col-md-4 my-4" style={{ textAlign: "center" }}>
+            <div
+              key={data.id}
+              className="col-md-4 my-4"
+              style={{ textAlign: "center" }}
+            >
               <img
                 className="associateProfile"
                 style={{ height: "450px" }}
